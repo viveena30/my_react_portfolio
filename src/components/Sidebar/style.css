@@ -1,0 +1,128 @@
+.nav-container {
+    position: fixed;
+    height: 100vh;
+    width: 22%;
+    background: var(--background-dark-color);
+    border-right: 8px solid var(--border-color);
+    z-index: 99;
+}
+
+.avatar {
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+    text-align: center;
+    padding: 1rem 0;
+}
+.avatar img {
+    width: 40%;
+    height: 100%;
+    border-radius: 50%;
+    border: 8px solid var(--border-color);
+}
+
+.avatar .name {
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    color: var(--white-color);
+}
+
+.avatar .tagline {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.1px;
+    color: var(--font-light-color);
+    font-size: 12px;
+}
+
+.nav-items {
+    width: 100%;
+    text-align: center;
+    padding: 2.55rem 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    letter-spacing: 1.1px;
+}
+
+li {
+    display: block;
+}
+
+.active-class {
+    background-color: var(--border-color);
+    background-color: var(--primary-color);
+
+    color: var(--white-color);
+}
+
+.active-class:before {
+    border-bottom: 0px solid var(--border-color);
+    border-top: 0px solid var(--border-color);
+}
+
+a {
+    display: block;
+    padding: 0.6rem 0;
+    position: relative;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: var(--font-light-color);
+}
+a:hover {
+    cursor: pointer;
+    color: var(--white-color);
+    /* when active it should be primary color*/
+}
+
+/* a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-bottom: 2px solid var(--border-color);
+    border-top: 2px solid var(--border-color);
+    transition: 0.4s ease-in-out;
+    background-color: var(--primary-color);
+    transition: all 0.4s cubic-beizer(1, -0.2, 0.25, 0.95);
+    opacity: 0.1;
+} */
+
+/* 
+        //////   for above
+cubic-bezier(1,-0.2,.25,.93);
+top 0 cancel
+width: 0;  initialize the transition at width = 0 */
+
+/* 
+a:hover::before {
+    width: 100%;
+} */
+
+
+
+.social-links-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 12px 15px;
+    border-top: 1px solid var(--border-color);
+}
+
+.social-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--border-color);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.social-link:hover{
+    background: var(--primary-color);
+}

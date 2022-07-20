@@ -1,0 +1,75 @@
+
+.about{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.intro-lines{
+    padding: 0px 30px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: var(--border-color);
+}
+
+.info-container{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info-container .img-container img{
+    z-index: 100;
+    padding: 10px 0;
+    border-radius: 20px;
+}
+
+.info-container .my_info-container{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: -50px;
+
+
+}
+
+.info-container .my_info-container p {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.info-container .my_info-container .col-container{
+    display: flex;
+    margin-left: -10px;
+}
+
+.info-container .my_info-container .col{
+    width: 310px;
+}
+
+
+.info-container .my_info-container .col li{
+    padding: 10px;
+    display: flex;
+    line-height: 24px;
+}
+
+.info-container .my_info-container .col1{
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.my-description{
+    padding: 5px 30px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    line-height: 24px;
+}
