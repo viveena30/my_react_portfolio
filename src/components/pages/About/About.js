@@ -11,15 +11,15 @@ const About = () => {
       <div className="about">
         <Title title={"About"} span={"About"} />
         <div className="intro-lines">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
-          autem quaerat neque esse a error. Cumque ducimus a saepe sunt!
+          Hey! Nice to see you here. I'm Viveena, a 19 years old girl exploring
+          technology while i romanticize my life by adding aesthetics and music.
         </div>
         <div className="info-container">
           <div className="img-container">
             <img src={profile} alt="" width={300} />
           </div>
           <div className="my_info-container">
-            <p>Lorem ipsum dolor sit amet</p>
+            <p>Everything about me</p>
             <div className="col-container">
               <div className="col col1">
                 <ul>
@@ -27,7 +27,7 @@ const About = () => {
                     <i className="arrow">
                       <img src={rightArrow} alt="" />
                     </i>
-                    <div className="detail">Birthday: 9 February 2002</div>
+                    <div className="detail">Birthday: 30 August 2002</div>
                   </li>
                   <li>
                     <i className="arrow">
@@ -35,7 +35,7 @@ const About = () => {
                     </i>
 
                     <div className="detail">
-                      Address: 2231, Nayabd, Eden Icon I, Flat-1B, 1st floor
+                      Address: Vadodara, Gujarat, India
                     </div>
                   </li>
                   <li>
@@ -43,16 +43,14 @@ const About = () => {
                       <img src={rightArrow} alt="" />
                     </i>
 
-                    <div className="detail">Phone: +91 9088677074</div>
+                    <div className="detail">Phone: +91 6353300284</div>
                   </li>
                   <li>
                     <i className="arrow">
                       <img src={rightArrow} alt="" />
                     </i>
 
-                    <div className="detail">
-                      City: Kolkata, West Bengal, India
-                    </div>
+                    <div className="detail">Degree: BE(CSE)</div>
                   </li>
                 </ul>
               </div>
@@ -62,32 +60,28 @@ const About = () => {
                     <i className="arrow">
                       <img src={rightArrow} alt="" />
                     </i>
-                    <div className="detail">Birthday: 9 February 2002</div>
+                    <div className="detail"> Age: 19</div>
                   </li>
                   <li>
                     <i className="arrow">
                       <img src={rightArrow} alt="" />
                     </i>
 
-                    <div className="detail">
-                      Address: 2231, Nayabd, Eden Icon I, Flat-1B, 1st floor
-                    </div>
+                    <div className="detail">Email: viveena30@gmail.com</div>
                   </li>
                   <li>
                     <i className="arrow">
                       <img src={rightArrow} alt="" />
                     </i>
 
-                    <div className="detail">Phone: +91 9088677074</div>
+                    <div className="detail">Github: @viveena30 </div>
                   </li>
                   <li>
                     <i className="arrow">
                       <img src={rightArrow} alt="" />
                     </i>
 
-                    <div className="detail">
-                      City: Kolkata, West Bengal, India
-                    </div>
+                    <div className="detail">Freelance: Available</div>
                   </li>
                 </ul>
               </div>
@@ -95,15 +89,19 @@ const About = () => {
           </div>
         </div>
         <div className="my-description">
-          I am currently practicing tailwindcss and react. Though I have already
-          done few projects in bootstrap, vanilla css and Java Script. I have a
-          keen interest in exploring the backend developement which I've been
-          doing using tools like MongoDB, Node.js, Express Framework and thanks
-          to RESTful API. Apart from these, I have successfully completed the
-          Google Cloud Faciliater Program 2k20. Through this program, I learned
-          about Containers with Docker, open shift, and kubernetes, Create ML
-          models with BigQuery ML, Perform Foundation, Infrastructure Tasks in
-          Google Cloud and Integrate with ML APIs.
+          I am currently pursuing B.E. in
+          Computer Engineering. I have worked with Web Development, Android
+          Development, and Cloud Technologies. I love to convert ideas into
+          code. I am a community person and love to engage in community events.
+          I am an open-source enthusiast. I love to participate in organizing
+          events as well as taking part in them. Currently, I am a volunteer at
+          the GDSC chapter of our college. I avidly participate in events like
+          HacktobberFest, and other hackathons. I always try to build something
+          that is useful to this world, this community, and this society of
+          ours. Always open to opportunities to upskill my knowledge. I am open
+          to learning any tech stack according to requirements.
+          
+          
         </div>
       </div>
     </>

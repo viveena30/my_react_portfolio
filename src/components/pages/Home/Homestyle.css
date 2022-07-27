@@ -8,9 +8,7 @@
     flex-direction: column;
 }
 
-.particles-container{
-    max-height: 100vh;
-}
+
 
 .intro-title, .intro-footer{
     font-size: 30px;

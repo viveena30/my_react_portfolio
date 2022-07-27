@@ -1,5 +1,9 @@
 import React from "react";
 import Title from "../../Title";
+import { FaAndroid, FaHtml5, FaCss3, FaJs,FaJava, FaFigma ,FaJenkins, FaJira,FaLinux, FaNodeJs,FaNpm,FaPhp,FaSass,FaUbuntu,FaWordpress,FaGitAlt, FaGithub, FaAws,FaCloud, FaCode, FaReact, FaPython } from 'react-icons/fa';
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiAdobexd } from "react-icons/si";
+
 import "./Skillstyle.css";
 
 const Skills = () => {
@@ -9,128 +13,34 @@ const Skills = () => {
       <div className="skills">
         <Title title={"Skills"} span={"Skills"} />
         <div className="intro-lines">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
-          autem quaerat neque esse a error. Cumque ducimus a saepe sunt!
+          Along with studying core computer science subjects including  Operating systems, Database and DBMS, Computer Network, and many more...I have developed several technical skills that can be used for implementation of ideas. I have explored various fields like Web Designing, Web Development, Application Development, Cloud technologies including Google Cloud and AWS. 
         </div>
 
         <div className="skill-container">
-          <div  className="skill-card">
-            <h2  className="skill-title">UI/UX Designing</h2>
-
-            <div  className="skill">
-              <div  className="skill-name">Figma</div>
-              <div  className="skill-bar">
-                <div  className="skill-per" per="85"></div>
-              </div>
-            </div>
-            <div  className="skill">
-              <div  className="skill-name">Adobe XD</div>
-              <div  className="skill-bar">
-                <div  className="skill-per" per="70"></div>
-              </div>
-            </div>
-            <div  className="skill">
-              <div  className="skill-name">Canva</div>
-              <div  className="skill-bar">
-                <div  className="skill-per" per="90"></div>
-              </div>
-            </div>
-          </div>
-          <div  className="skill-card">
-            <h2  className="skill-title">Frontend development</h2>
-
-            <div  className="skill">
-              <div  className="skill-name">HTML</div>
-              <div  className="skill-bar">
-                <div  className="skill-per" per="95"></div>
-              </div>
-            </div>
-            <div  className="skill">
-              <div  className="skill-name">CSS</div>
-              <div  className="skill-bar">
-                <div  className="skill-per" per="90"></div>
-              </div>
-            </div>
-            <div  className="skill">
-              <div  className="skill-name">SASS</div>
-              <div  className="skill-bar">
-                <div  className="skill-per" per="80"></div>
-              </div>
-            </div>
-            <div  className="skill">
-              <div  className="skill-name">Javascript</div>
-              <div  className="skill-bar">
-                <div  className="skill-per" per="80"></div>
-              </div>
-            </div>
-            <div  className="skill">
-              <div  className="skill-name">jQuery</div>
-              <div  className="skill-bar">
-                <div  className="skill-per" per="80"></div>
-              </div>
-            </div>
-            <div  className="skill">
-              <div  className="skill-name">React JS</div>
-              <div  className="skill-bar">
-                <div  className="skill-per" per="70"></div>
-              </div>
-            </div>
-          </div>
-
-          <div  className="skill-card">
-            <h2  className="skill-title">backend development</h2>
-
-            <div  className="skill">
-              <div  className="skill-name">PHP</div>
-              <div  className="skill-bar">
-                <div  className="skill-per" per="50"></div>
-              </div>
-            </div>
-            <div  className="skill">
-              <div  className="skill-name">Node.js</div>
-              <div  className="skill-bar">
-                <div  className="skill-per" per="70"></div>
-              </div>
-            </div>
-            <div  className="skill">
-              <div  className="skill-name">mongoDB</div>
-              <div  className="skill-bar">
-                <div  className="skill-per" per="55"></div>
-              </div>
-            </div>
-          </div>
-          <div  className="skill-card">
-            <h2  className="skill-title">Programming</h2>
-
-            <div  className="skill">
-              <div  className="skill-name">C Programming</div>
-              <div  className="skill-bar">
-                <div  className="skill-per" per="85"></div>
-              </div>
-            </div>
-            <div  className="skill">
-              <div  className="skill-name">C++</div>
-              <div  className="skill-bar">
-                <div  className="skill-per" per="70"></div>
-              </div>
-            </div>
-          </div>
-          <div  className="skill-card">
-            <h2  className="skill-title">Others</h2>
-
-            <div  className="skill">
-              <div  className="skill-name">Content Writing</div>
-              <div  className="skill-bar">
-                <div  className="skill-per" per="80"></div>
-              </div>
-            </div>
-            <div  className="skill">
-              <div  className="skill-name">Graphic Design</div>
-              <div  className="skill-bar">
-                <div  className="skill-per" per="70"></div>
-              </div>
-            </div>
-          </div>
+            <div className="skill-icon"><FaCode /></div>
+            <div className="skill-icon"><FaFigma /></div>
+            <div className="skill-icon"><SiAdobexd /></div>
+            <div className="skill-icon"><FaHtml5 /></div>
+            <div className="skill-icon"><FaCss3 /></div>
+            <div className="skill-icon"><FaSass /></div>
+            <div className="skill-icon"><FaJs /></div>
+            <div className="skill-icon"><FaNpm /></div>
+            <div className="skill-icon"><FaReact /></div>
+            <div className="skill-icon"><TbBrandNextjs /></div>
+            <div className="skill-icon"><FaNodeJs /></div>
+            <div className="skill-icon"><FaJava /></div>
+            <div className="skill-icon"><FaAndroid /></div>
+            <div className="skill-icon"><FaLinux /></div>
+            <div className="skill-icon"><FaUbuntu /></div>
+            <div className="skill-icon"><FaPhp /></div>
+            <div className="skill-icon"><FaWordpress /></div>
+            <div className="skill-icon"><FaPython /></div>
+            <div className="skill-icon"><FaGithub /></div>
+            <div className="skill-icon"><FaGitAlt /></div>
+            <div className="skill-icon"><FaJenkins /></div>
+            <div className="skill-icon"><FaCloud /></div>
+            <div className="skill-icon"><FaJira /></div>
+            <div className="skill-icon"><FaAws /></div>
         </div>
       </div>
     </>

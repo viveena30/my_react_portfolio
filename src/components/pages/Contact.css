@@ -1,0 +1,26 @@
+
+.contact-card  {
+font-family: 'Poppins', sans-serif;
+padding: 10px 30px;
+max-width: 30%;
+
+}
+    .contact-card h3   {
+    color: var(--border-color);
+    font-size: 20px;
+}
+.contact-card p {
+    /* font-size: 20px; */
+    color: var(--font-color-main);
+}
+
+.contact-card h3 a {
+    padding: 0px;
+    color: var(--font-color-main);
+}
+
+.contact-card p a {
+    padding: 0px;
+    
+    color: var(--font-color-main);
+}

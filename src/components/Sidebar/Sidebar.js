@@ -25,33 +25,33 @@ const Sidebar = () => {
 
         <ul className="nav-items">
           <li className="nav-item">
-            <NavLink to="#home" activeClassName="active-class" exact>
+            <NavLink to="#home" exact>
               Home
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="#about" activeClassName="active-class" exact>
+            <NavLink to="#about">
               {/* <NavLink to={about}    and import all these sections/pages too       activeClassName="active-class" exact> */}
               About
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="#resume" activeClassName="active-class" exact>
+            <NavLink to="#resume">
               Resume
             </NavLink>
           </li>
-          <li className="nav-item">
-            <NavLink to="#portfolio" activeClassName="active-class" exact>
+          {/* <li className="nav-item">
+            <NavLink to="#portfolio">
               Portfolio
             </NavLink>
-          </li>
+          </li> */}
           <li className="nav-item">
-            <NavLink to="#services" activeClassName="active-class" exact>
+            <NavLink to="#services">
               Services
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="#contact" activeClassName="active-class" exact>
+            <NavLink to="#contact">
               Contact
             </NavLink>
           </li>

@@ -13,6 +13,7 @@ const App = () => {
         {/* <Route path="/components/pages/About/About.js" component={About} /> */}
         <Sidebar />
         <Container />
+        
       </Router>
     </> 
   );

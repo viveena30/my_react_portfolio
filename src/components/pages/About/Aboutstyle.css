@@ -58,7 +58,7 @@
     line-height: 24px;
 }
 
-.info-container .my_info-container .col1{
+.info-container .my_info-container .col1, .info-container .my_info-container .col {
     padding: 5px;
     font-size: 16px;
     font-weight: 500;
