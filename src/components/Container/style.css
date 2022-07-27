@@ -1,6 +1,7 @@
 .home-container {
     width: 78%;
     float: right;
+    overflow-x: hidden;
     max-height: 100vh;    
     background: var(--background-dark-color);
 

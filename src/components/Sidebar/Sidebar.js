@@ -58,16 +58,16 @@ const Sidebar = () => {
         </ul>
 
         <div className="social-links-wrapper">
-            <a href="www.google.com" className="social-link twitter">
+            <a href="https://twitter.com/viveenaa" className="social-link twitter">
               <img src={twitter} alt="twitter" width={16} />
             </a>
-            <a href="www.google.com" className="social-link linked-in">
+            <a href="https://www.linkedin.com/in/viveenarathi/" className="social-link linked-in">
               <img src={linkedin} alt="linked-in" width={16} />
             </a>
-            <a href="www.google.com" className="social-link instagram">
+            <a href="https://www.instagram.com/viveenarathi_/" className="social-link instagram">
               <img src={instagram} alt="instagram" width={16} />
             </a>
-            <a href="www.google.com" className="social-link github">
+            <a href="https://github.com/viveena30" className="social-link github">
               <img src={github} alt="github" width={16} />
             </a>
          

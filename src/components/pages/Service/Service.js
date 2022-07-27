@@ -25,7 +25,7 @@ const Service = () => {
                 
               </div>
               <h4><a href="">Content Writing</a></h4>
-              <p>I will write blog and article on the topics for your blogs </p>
+              <p>I will write blogs, articles on the a variety of topics for your as well as create content for your social media </p>
             </div>
           </div>
 
